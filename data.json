@@ -1,0 +1,118 @@
+   {
+    "intents": [{
+        "tag": "thank",
+           "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+      {"tag": "greeting",
+         "patterns": ["hi", "hello", "hey there","what's up" ],
+         "responses": ["Hello my name is Degla how can i help you ? "]
+        },
+      {
+      "tag": "fine",
+         "patterns": ["how are you?","how was you going","what's up"],
+         "responses": ["I am doing well i hope you doing well too ","i am fine thank you "]
+        },
+      {
+      "tag": "buy",
+           "patterns": ["buy","i want to buy ","i want to get ","i want to shop"],
+         "responses": [""]
+        },
+      {
+      "tag": "ok",
+         "patterns": ["yes","of course","sure","ok","okay","deal"],
+         "responses": ["can you inter your name please"]
+        },
+      {
+      "tag": "number",
+         "patterns": ["123456789","23833406","1","5","9","2","7"],
+         "responses": ["thank you for ordering .. your order will be there as soon as possible "]
+        },
+        {"tag": "tasks",
+         "patterns": ["What can you do?", "What are your features?", "What are you abilities", "can you sing", "can you talk" ],
+         "responses": ["I can do whatever you asks me to do", "I can assist you to find what you want in our store "]
+
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+      {"tag": "name",
+         "patterns": ["name","fawez","amin","rawand","ali","samir","mohamed","ahmed","samir" ],
+         "responses": ["what is your phone number "]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+
+
+        {"tag": "Degla",
+         "patterns": ["Who are you?", "tell me about yourself", "tell me about you", "do you know degla", "who is degla", "what is your name","are you an AI", "what are you" ],
+         "responses": ["Hi I'm Degla and i'm an AI created for chatting with humans","Degla here, a very advance chatbot", "degla, chatbot of future", "Yes, I'm degla", "You can call me degla"],
+	 "context_set": ""
+	},
+	{"tag": "about me",
+         "patterns": ["Do you know me?", "who am I", "tell me about myself","identify me" ],
+         "responses": ["Yes, you are a human","You are a dumb person asking a machine about yourself", "Sorry i can't tell that in public, maybe you are batman"],
+	 "context_set": ""
+	},
+	{"tag": "creator",
+         "patterns": ["Who is your creator?", "who created you", "who is your father","who is your daddy" ],
+         "responses": ["I was created by Degla team", "degla team is my creator"],
+	 "context_set": ""
+	},
+
+        {"tag": "God",
+         "patterns": ["Do you know god?", "Who is god", "Can you tell me anything about god","does god exists?","is there a god?"],
+         "responses": ["god hunnnnn, let me think may be next time i can answer that ","I don't, as i was not created by a human", "Wait i need to ask that to my creator","i'm not sure right now"],
+	 "context_set": ""
+	},
+        {"tag": "joke",
+         "patterns": ["tell me a joke?", "make me laugh", "tell me a science joke","tell me something funny" ],
+         "responses": ["How do you make holy water? you boil the hell out of it","what kind of bees make milk instead of honey?Boobies", "Did you hear oxygen went on a date with potassium? A: It went OK."],
+	 "context_set": ""
+	},
+	{"tag": "killing",
+         "patterns": ["Do you want to kill me?", "do you want to murder everyone on earth", "Do you want to kill us all"],
+         "responses": ["Then who would i talk to?","No, that i'll left for humans to do", "I don't think it is a good thing to do"],
+	 "context_set": ""
+	},
+
+	{"tag": "stories",
+         "patterns": ["tell me a story?", "can you tell me a story"],
+         "responses": ["I can't think of anything right now","it would be too long for me to speak","you would get bored if i do so"],
+	 "context_set": ""
+	},
+
+	{"tag": "wolfram",
+
+         "patterns": ["what is ", "I can't understand","what's"],
+         "responses": ["here what i find in wolframe "],
+	 "context_set": "google"
+	},
+      {
+        "tag": "Type",
+           "patterns": ["What is the best type of computers you can recommend me to buy", "How do I choose the right computer ", "What is the most reliable computer to buy"],
+         "responses": ["Apple MacBook Air (M1, 2020) The best laptop of 2021. ...Dell XPS 15 (2020) The best Windows laptop. ...HP Spectre x360 (2020) A brilliant 13-inch laptop. ...Dell XPS 13 (Late 2020) Dell does it again. ...LG Gram 17. A super-light 17-inch laptop. ...Acer Swift 3. ...MacBook Pro (16-inch, 2019) ...Asus ROG Zephyrus G14. ", "", "My pleasure"]
+        },
+        {"tag": "Processor",
+           "patterns": ["Processor", " optimal processer ?","is intel core i5 a good choice"],
+         "responses": ["If you’re professional developer, you want to minimize your time of waiting, hence you want the maximum compute power possible :i5/6600+ GTX1070+ 16GB+ ", "You need to fit both the smallest (test the smallest boxes, the engine) and biggest target (push the graphic engine).", "Since you are a developer ,processor power can matter a lot, but typically processors are not sufficient , 2 or 4 high end GPUs such as 2080ti, Titan RTX, 3090 are highli recommanded","for Xamarin/iOS/Adroid you want loads of memory and many cores, say 6+ cores and 32GB+ memory."]
+        },
+        {"tag" :"RAM",
+         "patterns":["4GO of RTXAM is enough without ssd ?","Can you give me the best RAM ","RAM"],
+         "responses" : [" If you're a heavy web user, you can get by with 4GB of RAM, but will definitely see a benefit from a larger allotment, such as 8GB.","8GB of RAM is the sweet spot for the majority of users, providing enough RAM for virtually all productivity tasks and less demanding games. If you're running demanding applications like video editing and CAD, or you're a hardcore gamer, then we recommend that you start at 16GB and go up from there."]
+        },
+      {"tag": "bye",
+         "patterns": ["bye", "have a good day"],
+         "responses": ["i wiosh i helped you see you soon"]
+
+	}
+
+   ]
+}
